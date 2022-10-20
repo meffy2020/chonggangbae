@@ -1,0 +1,153 @@
+:root{
+    --text-color: #f0f4f5;
+    --background-color: #3A8446;
+    --accent-color:#6c6c6c;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Open sans';
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:#3A8446;
+    padding: 4px 12px;
+}
+
+.navbar__logo {
+    font-size: 20px;
+    color: white;
+}
+
+.navbar__logo i {
+    color: #6c6c6c;
+}
+
+.navbar__menu {
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.navbar__menu li {
+    padding: 8px 12px;
+
+}
+
+.navbar__menu :hover {
+    background: #797979;
+    border-radius: 4px;
+}
+
+.navbar__icons {
+    list-style: none;
+    color: white;
+    display: flex;
+    padding-left: 0px;
+}
+
+.navbar__icons li {
+    padding: 8px 12px;
+}
+
+.navbar__toogleBtn {
+    display: none;
+    position: absolute;
+    right: 32px;
+    font-size: 24px;
+    color: #d49466;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px 24px;
+    }
+    
+    .navbar__menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .navbar__menu li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar__icons {
+        display: none;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .navbar__toogleBtn {
+        display: block;
+    }
+
+    .navbar__menu.active,
+    .navbar__icons.active {
+        display: flex;
+    }
+}
+
+
+
+/*하단바*/
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #wrap {
+    min-height: 100vh;
+    position: relative;
+    width: 100%; 
+    background-color: #f2f2f2;
+    
+  }
+  .galmalbuilding{--textcolor: #0000;}
+  
+  section {
+    padding-bottom: 105px;
+  }
+  
+  footer {
+    width: 100%;
+    height: 90px;
+    bottom: 0px;
+    position: absolute;
+    border-top: 1px solid #c4c4c4;
+    padding-top: 15px;
+    color: #808080;
+    font-size: 11px;
+  }
+  
+  footer a {
+    display: inline-block;
+    margin: 0 20px 10px 20px;
+    color: #808080; font-size: 11px;
+  }
+  
+  footer a:visited {
+    color: #808080;
+  }
+  
+  footer p {
+    margin-top: 0; margin-bottom: 0;   
+  }
+  
+  footer p span {
+    display: inline-block;
+    margin-left: 20px;
+  }

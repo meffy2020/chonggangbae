@@ -1,0 +1,222 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.division-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  border-top: 0 solid var(--color-black);
+  border-right: 0 solid var(--color-black);
+  border-bottom: 5px solid var(--color-black);
+  border-left: 0 solid var(--color-black);
+  box-sizing: border-box;
+  width: 1720px;
+  height: 150px;
+}
+.campusmapbutton-div {
+  position: absolute;
+  top: 0;
+  left: 250px;
+  display: inline-block;
+}
+.line2-div {
+  position: absolute;
+  top: 50px;
+  left: 420px;
+  background-color: var(--color-gray);
+  width: 1px;
+  height: 48px;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.miralbutton-div {
+  position: absolute;
+  top: 0;
+  left: 470px;
+  display: inline-block;
+}
+.line2-div1 {
+  position: absolute;
+  top: 50px;
+  left: 600px;
+  background-color: var(--color-gray);
+  width: 1px;
+  height: 48px;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.illipbutton-div {
+  position: absolute;
+  top: 0;
+  left: 650px;
+  display: inline-block;
+}
+.line2-div2 {
+  position: absolute;
+  top: 50px;
+  left: 780px;
+  background-color: var(--color-gray);
+  width: 1px;
+  height: 48px;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.bokkeumbutton-div {
+  position: absolute;
+  top: 0;
+  left: 830px;
+  display: inline-block;
+}
+.line2-div3 {
+  position: absolute;
+  top: 50px;
+  left: 975px;
+  background-color: var(--color-gray);
+  width: 1px;
+  height: 48px;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.calmelbutton-div {
+  position: absolute;
+  top: 0;
+  left: 1025px;
+  display: inline-block;
+}
+.line2-div4 {
+  position: absolute;
+  top: 50px;
+  left: 1170px;
+  background-color: var(--color-gray);
+  width: 1px;
+  height: 48px;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.moriabutton-div {
+  position: absolute;
+  top: 0;
+  left: 1210px;
+  display: inline-block;
+}
+.group-div {
+  position: relative;
+  width: 1545px;
+  height: 48px;
+  flex-shrink: 0;
+}
+.menu-div1 {
+  position: absolute;
+  top: 57px;
+  left: 86.25px;
+  width: 1600px;
+  height: 49px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.menu-div {
+  position: absolute;
+  top: 0;
+  left: -0.25px;
+  width: 1720px;
+  height: 150px;
+}
+.background-1-icon,
+.calmelbldg-1-icon {
+  position: absolute;
+  top: 250px;
+  left: 200px;
+  width: 1300px;
+  height: 767.72px;
+  object-fit: cover;
+}
+.calmelbldg-1-icon {
+  top: 19px;
+  left: 71px;
+  width: 150px;
+  height: 122px;
+}
+.bokeumbldg-1-icon,
+.moriabldg-1-icon {
+  position: absolute;
+  top: 134px;
+  left: 85px;
+  width: 236px;
+  height: 153px;
+  object-fit: cover;
+}
+.bokeumbldg-1-icon {
+  top: 0;
+  left: 296px;
+  width: 282px;
+  height: 99px;
+}
+.illipbldg-1-icon,
+.miralbldg-1-icon {
+  position: absolute;
+  top: 329px;
+  left: 0;
+  width: 362px;
+  height: 276px;
+  object-fit: cover;
+}
+.miralbldg-1-icon {
+  top: 83px;
+  left: 499px;
+  width: 111px;
+  height: 159px;
+}
+.building-div {
+  position: absolute;
+  top: 283px;
+  left: 532px;
+  width: 610px;
+  height: 605px;
+}
+.tail-div {
+  position: relative;
+  display: inline-block;
+}
+.footer-div {
+  position: absolute;
+  top: 1339px;
+  left: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 59px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-roboto);
+}
+.homepage-div,
+.vector-icon {
+  position: relative;
+  flex-shrink: 0;
+}
+.homepage-div {
+  background-color: var(--color-white);
+  width: 1720px;
+  height: 1380px;
+  overflow: hidden;
+}
+.vector-icon {
+  width: 1734.5px;
+  height: 1px;
+}
+
+.frame-article{
+  position: relative;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+ justify-content: flex-start;
+ text-align: left;
+ font-size: var(--font-size-lg);
+color: var(--color-black);
+}
+
